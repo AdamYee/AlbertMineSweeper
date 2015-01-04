@@ -1,0 +1,50 @@
+div {
+	border: 1px solid black;
+}
+
+.base {
+	background-color: gray;
+	height: 410px;
+	width: 410px;
+	/*for a 15*15 grid.*/
+}
+
+.cell {
+	background-color: blue;
+	height: 30px;
+	width: 30px;
+	position: relative;
+	display: inline-block;
+	margin: 2px;
+	padding: 2px;
+	text-align: center;
+	color: blue;
+	left: 5px;
+
+	display: flex; 
+	align-items: center; 
+	justify-content: center; 
+}
+
+.row {
+	display: block;
+	border: 0px;
+	position: relative;
+	top: 5px;
+	display: flex;
+}
+
+.red {
+	background-color: red;
+	color: white;
+}
+
+.green {
+	background-color: green;
+	color: yellow;
+}
+
+.flagged {
+	background-color: yellow;
+	color: red;
+}
